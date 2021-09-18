@@ -1,72 +1,83 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urna Eletrônica</title>
-    <link rel="stylesheet" href="style.css" ; </head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <body>
+    <title>Urna Eletrônica Online</title>
+</head>
+
+<body>
+    <div class="container">
+
         <div class="urna">
             <div class="tela">
-                <div class="d-1">
-                    <div class="d-1-left">
-                        <div class="d-1-1">
+                <div class="divisao1">
+                    <div class="divisao-esquerda">
+                        <div class="texto">
                             <span>SEU VOTO PARA</span>
                         </div>
-                        <div class="d-1-2">
-                            <span>VEREADOR</span>
+
+                        <div class="cargo">
+                            <span>Cargo</span>
                         </div>
-                        <div class="d-1-3">
+
+                        <div class="quadrado-numero">
                             <div class="numero pisca"></div>
                             <div class="numero"></div>
                         </div>
-                        <div class="d-1-4">
-                            Nome: FULANNHO LOPES<br/> Partido: QQQ <br/> Vice-Prefeito: FILHO DE MARIA<br/>
+
+                        <div class="descricao">
+                            Nome: Fulano de Tal<br> Partido: QQQ<br> Vice-Prefeito: Beltrano
                         </div>
                     </div>
-                    <div class="d-1-right">
-                        <div class="d-1-image">
-                            <img src="img/v9.png" alt="Foto do candidato a prefeito" /> Prefeito(a)
+
+                    <div class="divisao-direita">
+                        <div class="imagem">
+                            <img src="./img/c4.png" alt="Foto candidato">
+                            <span>Prefeito(a)</span>
                         </div>
-                        <div class="d-1-image small">
-                            <img src="img/v6.png" alt="Foto do candidato a vice prefeito" /> Vice-prefeito(a)
+                        <div class="imagem pequeno">
+                            <img src="./img/c5.png" alt="Foto candidato">
+                            <span>Vice-Prefeito(a)</span>
                         </div>
                     </div>
+
                 </div>
-                <div class="d-2">
-                    Aperte a tela:<br/> CONFIRMA para CONFIRMAR este voto<br/> CORRIGE para REINICIAR este voto<br/>
+                <div class="divisao2">
+                    Aperte a tela: <br> CONFIRMA para CONFIRMAR este voto <br> CORRIGE para REINICIAR este voto
                 </div>
 
             </div>
             <div class="teclado">
-                <div class="teclado--linha">
-                    <div class="teclado--botao">1</div>
-                    <div class="teclado--botao">2</div>
-                    <div class="teclado--botao">3</div>
-                </div>
-                <div class="teclado--linha">
-                    <div class="teclado--botao">4</div>
-                    <div class="teclado--botao">5</div>
-                    <div class="teclado--botao">6</div>
-                </div>
-                <div class="teclado--linha">
-                    <div class="teclado--botao">7</div>
-                    <div class="teclado--botao">8</div>
-                    <div class="teclado--botao">9</div>
-                </div>
-                <div class="teclado--linha">
-                    <div class="teclado--botao">0</div>
-                </div>
-                <div class="teclado--linha">
-                    <div class="teclado--botao botao--branco">BRANCO</div>
-                    <div class="teclado--botao botao--corrige">CORRIGE</div>
-                    <div class="teclado--botao botao--confirma">CONFIRMA</div>
+                <div class="area-teclado">
+                    <div class="btn teclado-botao">1</div>
+                    <div class="btn teclado-botao">2</div>
+                    <div class="btn teclado-botao">3</div>
+                    <div class="btn teclado-botao">4</div>
+                    <div class="btn teclado-botao">5</div>
+                    <div class="btn teclado-botao">6</div>
+                    <div class="btn teclado-botao">7</div>
+                    <div class="btn teclado-botao">8</div>
+                    <div class="btn teclado-botao">9</div>
+                    <div class="btn teclado-botao">0</div>
+                    <div class="btn btn-opcoes teclado-botao-branco">BRANCO</div>
+                    <div class="btn btn-opcoes teclado-botao-corrige">CORRIGE</div>
+                    <div class="btn btn-opcoes teclado-botao-confirma">CONFIRMA</div>
                 </div>
             </div>
         </div>
-    </body>
+
+        <div class="reiniciar">
+            <button class="btn botao-reiniciar" type="button">Reiniciar Votação</button>
+        </div>
+    </div>
+
+    <script src="./js/etapas.js"></script>
+    <script src="./js/script.js"></script>
+</body>
 
 </html>
