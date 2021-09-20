@@ -27,3 +27,11 @@ Prefeito(a):
   <li>Nelza: 12 </li>
   <li>João: 16 </li>
 </ul>
+
+# Linguagens e tecnologias utilizadas
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Keli-HTML" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/html-2752158-2284975.png">
+  <img align="center" alt="Keli-CSS" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/css-131-722685.png">
+  <img align="center" alt="Keli-JS" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/javascript-3630127-3031259.png">
+</div>
